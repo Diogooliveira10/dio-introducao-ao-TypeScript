@@ -1,17 +1,34 @@
 Qual é vantagem de usar TypeScript?
-    TypeScript é como se fosse uma extensão do JavaScript. Adiciona checagem de tipos, e várias outras features que o JavaScript não tem
-nativamente, facilitando o desenvolvedor e acelerando o processo de desenvolvimento, porque são ferramentas muito úteis que evita escrever
-muitas quantidade de código.
+    TypeScript é uma extensão do JavaScript. Adiciona checagem de tipos, e várias outras features que o JavaScript não tem nativamente
+facilitando e acelerando o desenvolvedor no processo de desenvolvimento, são ferramentas muito úteis que evita escrever muitas linhas de código.
 
 Parcel?
-    O Parcel oferece suporte a TypeScript pronto para uso, sem qualquer configuração adicional.
+    Oferece suporte a TypeScript pronto para uso, sem qualquer configuração adicional.
 
 TSC
     Quando TypeScript está instalado, temos acesso ao TSC(TypeScript Compiler) e nele podemos chamar o arquivo 'tsc index.ts' para Compilar
 o arquivo e gerar 'index.js', compilando para JavaScript.
 
 Types
-    Define uma estrutura de dados para os parâmentos, classes, função para fazer as validações deles.
+    São utilizados para definir estruturas de dados em classes e funções, além de apoiar suas respectivas validações.
 
-Interfaces
-    São contratos para implementar as classes.
+Condicionais em TypeScript
+    Permitem que um tipo seja definido dinamicamente com base em uma condição pré fornecida, seguindo um formato padrão.
+
+Generic types
+    Representam uma maneira de criar parâmetros para classes e definir tipos que podem ser substituídos em vários lugares do programa,
+eliminando o uso de classe Object para definirmos tipos variáveis.
+
+Como funciona as Interfaces?
+    São espécies de contratos para implementar as classes ou estruturas. Uma classe que implementa uma Interface é obrigada a implementar
+todos os seus membros.
+
+Qual forma de utilização da função Omit dentro do TypeScript?
+    Em um padrão de condificação típico em TypeScript, é criado um novo tipo que omite(omissão) propriedades específicas de outro tipo.
+Antes usada a combinação dos helpers Pick e Exclude.
+
+Modificadores de acesso no TypeScript
+    private, public e protected.
+
+Utilização de readonly
+    É utilizado para propriedades (membros de classes), que pode ser reatribuídas desde que dentro do construtor.
