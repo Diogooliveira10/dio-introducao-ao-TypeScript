@@ -9,3 +9,9 @@ Parcel?
 TSC
     Quando TypeScript está instalado, temos acesso ao TSC(TypeScript Compiler) e nele podemos chamar o arquivo 'tsc index.ts' para Compilar
 o arquivo e gerar 'index.js', compilando para JavaScript.
+
+Types
+    Define uma estrutura de dados para os parâmentos, classes, função para fazer as validações deles.
+
+Interfaces
+    São contratos para implementar as classes.

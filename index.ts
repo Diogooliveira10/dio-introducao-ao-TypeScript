@@ -8,3 +8,31 @@ function soma(a: number, b: number) {
 
 soma('a', 'b')
 */
+
+// types
+// interfaces
+interface IAnimal {
+    nome: string;
+    tipo: 'terrestre' | 'aquático';
+    executarRugido(alturaEmDecibeis: number): void; // Pode adicionar funções
+}
+
+// com as interfaces como Java ou outras linguagens, pode estender as interfaces
+interface IFelino extends IAnimal {
+    visaoNoturna: boolean; // pode ou não pode enxergar a noite
+}
+
+const animal: IAnimal = {
+    nome: 'Elefante',
+    tipo: 'terrestre',
+    executarRugido: (alturaEmDecibeis) => (`${alturaEmDecibeis}dB`)
+}
+
+animal.executarRugido('')
+
+const felino: IFelino = {
+    nome: 'Leão',
+    tipo: 'terrestre',
+    visaoNoturna: true,
+}
+// Você cria um contrato para quando estiver criando seus objetos ou classes.
