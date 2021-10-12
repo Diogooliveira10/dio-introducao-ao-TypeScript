@@ -5,3 +5,7 @@ muitas quantidade de código.
 
 Parcel?
     O Parcel oferece suporte a TypeScript pronto para uso, sem qualquer configuração adicional.
+
+TSC
+    Quando TypeScript está instalado, temos acesso ao TSC(TypeScript Compiler) e nele podemos chamar o arquivo 'tsc index.ts' para Compilar
+o arquivo e gerar 'index.js', compilando para JavaScript.
