@@ -1,0 +1,7 @@
+Qual é vantagem de usar TypeScript?
+    TypeScript é como se fosse uma extensão do JavaScript. Adiciona checagem de tipos, e várias outras features que o JavaScript não tem
+nativamente, facilitando o desenvolvedor e acelerando o processo de desenvolvimento, porque são ferramentas muito úteis que evita escrever
+muitas quantidade de código.
+
+Parcel?
+    O Parcel oferece suporte a TypeScript pronto para uso, sem qualquer configuração adicional.

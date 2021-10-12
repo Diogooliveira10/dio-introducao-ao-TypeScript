@@ -1,0 +1,26 @@
+{
+  "name": "dio-introducao-ao-typescript",
+  "version": "1.0.0",
+  "description": "Exprorando na prática o TypeScript, uma das linguagens de Front-End mais robustas e recomendadas na atualidade. Para isso, o expert [Douglas Moura](https://www.linkedin.com/in/dougmoura/) apresenta uma série de exemplos práticos que abordam as principais estruturas da liguagem: Classes, Tipos e Interfaces.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diogooliveira10/dio-introducao-ao-TypeScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diogooliveira10/dio-introducao-ao-TypeScript/issues"
+  },
+  "homepage": "https://github.com/Diogooliveira10/dio-introducao-ao-TypeScript#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
